@@ -25,7 +25,7 @@ class APIClient:
 
     def delete(self, endpoint):
         url = f"{self.BASE_URL}/{endpoint}"
-        response = requests.delete(url, headers=self.header)
+        response = requests.delete(url,  headers=self.header)
         return response
 
 
