@@ -53,6 +53,9 @@ This ensures continuous API validation and early defect detection during develop
 ```
 Python-Pytest_Requests_API_Framework/
 │
+├── .github/
+│   └── workflows/         # GitHub Actions CI pipeline configuration
+│
 ├── tests/                 # API test cases
 ├── utils/                 # Helper methods
 ├── data/                  # Test data files
@@ -62,7 +65,6 @@ Python-Pytest_Requests_API_Framework/
 ├── pytest.ini             # Pytest configuration
 ├── requirements.txt       # Project dependencies
 └── README.md
-```
 
 ---
 
